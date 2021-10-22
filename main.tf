@@ -27,7 +27,7 @@ data "vsphere_datastore" "datastore" {
 }
 
 data "vsphere_resource_pool" "pool" {
-  name          = "cx-hx/Resources"
+  name          = var.vsphere_resource_pool
   datacenter_id = data.vsphere_datacenter.dc.id
 }
 
