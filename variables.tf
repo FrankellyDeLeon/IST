@@ -31,6 +31,11 @@ variable "vsphere_vm_name" {
   description = "the name of the vm"
 }
 
+variable "vsphere_resource_pool" {
+  type = string
+  description = "the name of the resourcepool for examples: Cluster1/Resources " 
+}
+
 variable "vsphere_vm_portgroup" {
   type = string
   description = "the name of the portgroup"
