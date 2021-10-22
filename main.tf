@@ -14,8 +14,7 @@ provider "vsphere" {
 
   # if you have a self-signed cert
   allow_unverified_ssl = true
-}
-
+} 
 
 data "vsphere_datacenter" "dc" {
   name = var.vsphere_datacenter
