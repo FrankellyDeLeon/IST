@@ -2,8 +2,8 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/hashicorp/vsphere" {
-  version     = "2.1.1"
-  constraints = "2.1.1"
+  version     = "1.24.3"
+  constraints = "1.24.3"
   hashes = [
     "h1:c4ASRJVzZnaAVWjNwMlPY0hyj4XlXw0QxSsb7rzTsTk=",
     "zh:3b31455ca5a5c4ae7b65f1f4a51d651988d42862b9d4e078eb6fd5b238f98176",
